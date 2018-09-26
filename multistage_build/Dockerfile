@@ -1,4 +1,7 @@
 # 使用 as 声明段
+
+# 第 1 段
+
 FROM golang:1.9-alpine as builder
 RUN apk --no-cache add git
 WORKDIR /go/src/github.com/go/helloworld/
